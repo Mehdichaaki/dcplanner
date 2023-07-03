@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.logo {
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+header {
+  border: solid;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 17%;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+color: green;
+}
+strong {
+  color: green;
+}
+section {
+  border: solid;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item1 {
+  border: solid;
+  margin-left: 650px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 300px;
+}
+.item2 {
+  border: solid;
+ color: green;
+ margin-top: 25px;
+ margin-left: 450px;
+ margin-top: 50px;
+}
+.paragraph {
+  margin-top: 20px;
+  display: flex;
+  border: solid;
+ justify-content: space-between
+}
+.paragraph1 {
+  margin-top: 50px;
+  margin-left: 220px;
+  margin-right: 20px;
+}
+.paragraph2 {
+  margin-top: 50px;
+  margin-right: 220px;
+}
+.container1 {
+  margin-top: 40px;
+ border: solid;
+ display: flex;
+ justify-content: space-around;
+ margin-left: 200px;
+ margin-right: 200px;
+ gap: 10px;
+}
+.tab1 {
+  border: solid;
+  border-radius: 15px;
+  width: 325px;
+  height: 300px;
+  background-color: green;
+}
+.tab11 {
+  padding-right: 120px;
+  padding-top: 40px;
+  text-align: center;
+  background-color: green;
+}
+.tab12 { 
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: green;
+}
+.tab2 {
+  border: solid;
+  border-radius: 15px;
+  width: 325px;
+  height: 300px;
+  background-color: blue;
+}
+.tab21 {
+  padding-right: 120px;
+  padding-top: 40px;
+  text-align: center;
+  background-color: blue;
+}
+.tab22 {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: blue; 
+}
+.tab3 {
+  border: solid;
+  border-radius: 15px;
+  width: 325px;
+  height: 300px;
+  background-color: gray;
+}
+.tab31 {
+  padding-right: 120px;
+  padding-top: 40px;
+  text-align: center;
+  background-color: grey;
+}
+.tab32 {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: grey; 
+}
+.untab {
+  border: solid;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 200px;
+  font-size: larger;
+  color: green;
+  flex-wrap: nowrap;
+}
